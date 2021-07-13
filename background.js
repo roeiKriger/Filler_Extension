@@ -1,5 +1,5 @@
 
-/* Here I add the extension to my options in the menu when right clicking the mouse, only if I click in an editable object */
+/* Here I add the extension to my options in the menu when right clicking the mouse, only if I click on an editable object */
 var contextMenus = {};
 contextMenus.createCounterString = 
     chrome.contextMenus.create(
