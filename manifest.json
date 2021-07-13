@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Detailes",
+    "version": "0.1",
+    "description": "Details",
+    "background": {
+        "persistent": true,
+        "scripts": ["background.js"]
+      },
+    "permissions": [
+         "contextMenus",
+         "activeTab"
+        ],
+    "icons": {
+         "16": "exLogo.png",
+         "48": "exLogo.png",
+         "128": "exLogo.png"
+         }
+}
